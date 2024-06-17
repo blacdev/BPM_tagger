@@ -1,0 +1,4 @@
+aubio
+pytaglib
+ffmpeg-python
+numpy
