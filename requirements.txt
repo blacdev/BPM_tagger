@@ -1,4 +1,9 @@
-aubio
-pytaglib
-ffmpeg-python
-numpy
+altgraph==0.17.4
+aubio==0.4.9
+ffmpeg-python==0.2.0
+future==1.0.0
+numpy==2.0.0
+packaging==24.1
+pyinstaller==6.8.0
+pyinstaller-hooks-contrib==2024.7
+pytaglib==3.0.0
