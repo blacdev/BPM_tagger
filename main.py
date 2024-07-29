@@ -284,7 +284,7 @@ class App:
                     if len(beats) > 1:
                         logger.info('Calculating BPM')
                         intervals = np.diff(beats)
-                        bpm = 60.0 / np.mean(intervals)
+                        bpm = np.median(60.0 / intervals)
                         compute(mp3_path, bpm)
                     else:
                         logger.info('No beats detected')
